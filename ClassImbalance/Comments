@@ -1,0 +1,47 @@
+
+Course outline:
+1. Intro
+- what are imbalanced datasets
+- what are problems arising when using imbalanced datasets
+2. Using cost-sensitive methods for attending class imbalance
+3. Using ROC AUC as a metric for evaluating performance
+4. Course summary
+
+Comments
+- prio 1:
+=> discuss different metrics - main focus being layed on ROC AUC (WICHTIG: ask if they have seen this topic in the course!)
+=> practice the code (by heart)
+=> include Confusion Matrices
+=> see "Clarify" below
+
+(=> make a presentation out of it)
+(...)
+(...)
+(...)
+
+- prio 2:
+=> refactoring
+=> including f1-score as a metric
+=> run an ANN
+=> make a more interesting intro 
+    - bring up examples of what imbalanced datasets look like (as well as viz) - i.e. different relationships between datapoints of each class and implications
+    - discuss where "distortions" might come from when talking about imbalanced datasets (from the business point of view, but especially re "FP" and "FN". Also: include dataset size, label noise, data distribution)
+    - show how accuracy is a misleading metric (but in a different way than they already did in the course)
+=> after presenting yourself, as well as indicating what will be discussed: indicate sources of materials used
+
+
+Clarify:
+=> why is there no split in this case? (compare also with NB in bootcamp, most prob. LogReg or LinReg, re this: they didn't split there either) => this is due to cv
+=> understand intuition behind cost function (Ng! especially log effect as well as why formula starts with "-"; in addition: does the cost function actually include the "min"?)
+=> memorize definitions of all metrics (aside from ROC AUC)
+- where is the link to "regularization"?
+
+(=> difference between true positives and false positives
+- true positives are the right predictions of minority class 
+- false positives are the wrong predictions of minority class) 
+
+Clarify with Marija:
+=> ROC AUC (WICHTIG: ask if they have seen this topic in the course!). More generally: what is it that they saw regarding this topic?
+=> present course outline
+=> Should I code live?
+
