@@ -1,9 +1,9 @@
-<h1 align="center">Cost_Sensitive_Learning</h1>
+<h1 align="center">Cost_Sensitive_Learning 🔨💰</h1>
 <p align="center">Project Description</p>
 
-This project has been developed with the objective to show that cost-sensitive learning 🔨💰 is important when training models on an imbalanced dataset. 
+This project has been developed with the objective to show that cost-sensitive learning is important when training models on an imbalanced dataset. 
 
-* A Logistic Regression classifier has been compared to itself by means of tuning hyperparameters, with emphasis being out on the "weights"- parameter.
+* A Logistic Regression classifier has been compared to itself by means of tuning hyperparameters, with emphasis being put on the "weights"- parameter.
 
 * Model	performance (AUC) increases from 80% to 89% by means of definig "penalties" for false predictions of the minority class.
 
