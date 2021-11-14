@@ -1,4 +1,4 @@
-<h1 align="center">cost_sensitive_learning</h1>
+<h1 align="center">Cost_Sensitive_Learning</h1>
 <p align="center">Project Description</p>
 
 This project has been developed with the objective to show that cost-sensitive learning 🔨💰 is important when training models on an imbalanced dataset. 
